@@ -19,7 +19,7 @@ namespace LineComparision
         public void CalculateLength()
         {
             double result=Math.Sqrt((x2-x1)^2+(y2-y1)^2);
-            Console.WriteLine("Length of the Cartesion Line :"+" "+result);
+         
         }
     }
 }

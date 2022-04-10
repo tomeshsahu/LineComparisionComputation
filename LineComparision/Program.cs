@@ -10,14 +10,15 @@ class program
         Comparision.CalculateLength();
 
         LineComp Line1=new LineComp(2,5,6,8);
-        Line1.CalculateLength();
+       double l1= Line1.CalculateLength();
         LineComp Line2 = new LineComp(2, 5, 6, 8);
-        Line2.CalculateLength();
-        if (Line1.Equals(Line2))
+       double l2=Line2.CalculateLength();
+     
+        if (l1.CompareTo(l2) == 0)
         {
             Console.WriteLine("Both Lines are equals ");
         }
-        else
+        else if (l2.CompareTo(l1) > 0)
         {
             Console.WriteLine("Both Lines are not equals ");
         }
